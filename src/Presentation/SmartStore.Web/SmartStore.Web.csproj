@@ -942,6 +942,9 @@
     <Content Include="Content\editors\ckeditor\plugins\scayt\README.md" />
     <Content Include="Content\editors\ckeditor\plugins\wsc\LICENSE.md" />
     <Content Include="Content\editors\ckeditor\plugins\wsc\README.md" />
+    <Content Include="Config\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Content\fonts\raw\fonts\Fontastic.svg" />
     <None Include="Content\fonts\raw\index.html" />
     <None Include="Content\fonts\raw\license.txt" />
@@ -974,7 +977,7 @@
     <Content Include="Content\print.css" />
     <Content Include="Content\samples\0000730-apple-iphone-4s-weis.jpg" />
     <Content Include="Content\samples\0000740-antonio-vivaldi-der-fruhling-100.jpg" />
-    <Content Include="Content\samples\0000746_apple_125.jpeg" />
+    <Content Include="Content\samples\0000746_apple_125.png" />
     <Content Include="Content\samples\0000785-apple-iphone.png" />
     <Content Include="Content\samples\0000786-apple-iphone.png" />
     <Content Include="Content\samples\0000787-apple-iphone.jpg" />
@@ -982,7 +985,6 @@
     <Content Include="Content\samples\0000789-apple-iphone.jpg" />
     <Content Include="Content\samples\0000898_blackberry.jpeg" />
     <Content Include="Content\samples\0000899_htc.png" />
-    <Content Include="Content\samples\0000900_lg.jpeg" />
     <Content Include="Content\samples\0000904_samsung_125.jpeg" />
     <Content Include="Content\samples\0000930_spiegel-bestseller.png" />
     <Content Include="Content\samples\0000932_uberman-der-roman.jpeg" />
@@ -1022,6 +1024,9 @@
     <Content Include="Content\samples\emblem_library.png" />
     <Content Include="Content\samples\HP_Logo_2012.svg.png" />
     <Content Include="Content\samples\iphone.png" />
+    <Content Include="Content\samples\manufacturer-android.png" />
+    <Content Include="Content\samples\manufacturer-lg.png" />
+    <Content Include="Content\samples\manufacturer-microsoft.png" />
     <Content Include="Content\samples\msi_logo1.jpg" />
     <Content Include="Content\samples\music.png" />
     <Content Include="Content\samples\packshot-net.png" />
@@ -1031,7 +1036,7 @@
     <Content Include="Content\samples\sony-ps3-black.jpg" />
     <Content Include="Content\samples\sony-ps3-plus-game.jpg" />
     <Content Include="Content\samples\sony-ps3-white.jpg" />
-    <Content Include="Content\samples\sony-PS3AssassinsCreedBundle.jpg" />
+    <Content Include="Content\samples\sony-PS3AssassinsCreedBundle.png" />
     <Content Include="Content\samples\sony-ps4-bundle.jpg" />
     <Content Include="Content\samples\sony-ps4-camera.jpg" />
     <Content Include="Content\samples\sony-ps4.jpg" />
@@ -1826,11 +1831,11 @@
     <Content Include="Views\Boards\_CreateUpdateTopic.Mobile.cshtml" />
     <Content Include="Views\Boards\_CreateUpdatePost.Mobile.cshtml" />
     <Content Include="Views\Common\ConfigButton.Mobile.cshtml" />
-    <Content Include="Views\Common\Config.Mobile.cshtml" />
+    <Content Include="Views\Common\Settings.Mobile.cshtml" />
     <Content Include="Views\Common\LanguageSelector.Mobile.cshtml" />
     <Content Include="Views\Common\TaxTypeSelector.Mobile.cshtml" />
     <Content Include="Views\Common\CurrencySelector.Mobile.cshtml" />
-    <Content Include="Views\Common\Config.cshtml" />
+    <Content Include="Views\Common\Settings.cshtml" />
     <Content Include="Views\Customer\MyAccount.cshtml" />
     <Content Include="Views\Shared\_Notifications.cshtml" />
     <Content Include="Views\Catalog\ProductTagsAll.cshtml" />
