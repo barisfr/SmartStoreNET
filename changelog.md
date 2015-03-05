@@ -3,6 +3,7 @@
 ## SmartStore.NET 2.2
 
 ### New Features
+* New mobile theme: MobileLight (a light variant of the default mobile theme)
 * Localization: in a multi-language environment missing language resources fall back to default language's resources (instead of returning the ugly resource key)
 * #428 Implement category option to override global list view type
 * #485 Enable shop admin to change creation date of a blog entry
@@ -11,6 +12,7 @@
 * Option to determine the maximum amount of filter items
 * Option to determine whether all filter groups should be displayed expanded
 * #459 New field to determine tag for page titles on widget level
+* Added _shrink database_ to backend UI
 * (Developer) Added `BeginTransaction()` and `UseTransaction()`  methods to `IDbContext`
 
 ### Improvements
@@ -21,6 +23,7 @@
 * #189 Allow deletion of multiple reviews
 * #622 UI: Redesign table in Sales > Orders > Order > Tab Products
 * #625 Bundles can be ordered if an attribute combination of a bundle item is not available
+* Minor UI tweaks in checkout process
 
 ### Bugfixes
 * Amazon payments: Declined authorization IPN did not void the payment status
@@ -36,6 +39,7 @@
 * Fixed "Adding a relationship with an entity which is in the Deleted state is not allowed" when adding bundles to cart
 * Fixed price calculation of multiple bundles issue
 * Fixed auto add required products for bundle items
+* Fixes #641: Protocol in sitemap should be HTTPS when _ForceSslForAllPages_ is true
 
 
 ## SmartStore.NET 2.1.1
